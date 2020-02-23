@@ -410,11 +410,11 @@ namespace MediaBrowser.Model.Entities
 
             var fromCodec = Codec;
 
-            // Can't convert from this
-            if (string.Equals(fromCodec, "ass", StringComparison.OrdinalIgnoreCase))
-            {
-                return false;
-            }
+            //// Can't convert from this
+            //if (string.Equals(fromCodec, "ass", StringComparison.OrdinalIgnoreCase))
+            //{
+            //    return false;
+            //}
             if (string.Equals(fromCodec, "ssa", StringComparison.OrdinalIgnoreCase))
             {
                 return false;
